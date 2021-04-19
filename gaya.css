@@ -1,5 +1,8 @@
 #title {
-background-color: blue;
-    height: 20%;
+    background-color: blue;
+    height: 100px;
     color: aquamarine;
+}
+.gambaravatar {
+    size: 100px;
 }
