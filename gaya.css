@@ -6,7 +6,7 @@ body {
 #nav {
     background-color: rgb(48, 48, 48);
     padding: 1em;
-    width: 66%;
+    width: 70%;
     border-radius: 40px;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 1em;
+  margin: 0 .6em;
 }
 
 .tengah {
