@@ -4,8 +4,17 @@ body {
 
 /* navbar */
 #nav {
-  background-color: rgb(48, 48, 48);
-  padding: 10px;
+    background-color: rgb(48, 48, 48);
+    padding: 1em;
+    width: 66%;
+    border-radius: 40px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 1em;
 }
 
 #title {
@@ -13,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0px 48px;
+  margin: 0 1em;
 }
 
 .tengah {
@@ -36,12 +45,13 @@ img {
 /**dropbutton*/
 .dropbutton {
   background-color: rgb(48, 48, 48);
-  color: white;
-  padding: 16px;
+  color: #cccccc;
+  padding: 8px 24px;
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   border: none;
+  border-radius: 40px;
 }
 
 .dropdown {
@@ -56,6 +66,7 @@ img {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  right: 0;
 }
 
 .drop-content a {
@@ -75,7 +86,7 @@ img {
 }
 
 .dropdown:hover .dropbutton {
-  background-color: #797979;
+  background-color: rgb(39, 39, 39);
 }
 
 /*dropbuton*/
