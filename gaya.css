@@ -10,8 +10,9 @@ body {
 #nav {
   /* width: 100%; */
   position: fixed;
-  top: 5vh;
+  top: 50%;
   left: 0%;
+  transform: translate(0, -50%);
   /* justify-content: space-between;
   align-items: center;
   align-content: center;
@@ -38,9 +39,9 @@ img {
   border-radius: 1vh;
 }
 
-#logo {
-  height: 40px;
-  width: 40px;
+#title svg {
+  height: 4vh;
+  width: 4vh;
 }
 
 /**dropbutton*/
@@ -87,21 +88,20 @@ img {
 
 /* INI SLIDE */
 .wadahslide {
-  width: 100%;
+  width: 100%;;
 }
 
 .slide {
   background-color: rgb(48, 48, 48);
   padding: 1em;
-  width: 90%;
+  width: 78%;
   border-radius: 3vh;
   justify-content: space-between;
   align-items: center;
   align-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: auto;
-  margin-top: 5vh;
+  margin: 4vh auto;
 }
 /* ................................... */
 
@@ -115,7 +115,7 @@ img {
 }
 
 .dropdown:hover .drop-content {
-  display: block;
+  display: inline-flex;
   border-radius: 0 0 1em 1em;
 }
 
