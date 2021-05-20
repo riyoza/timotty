@@ -94,7 +94,10 @@ img {
 
 /* INI SLIDE */
 .wadahslide {
-  width: 100%;;
+  width: 100%;
+  grid-column: 1 / 4;
+}
+
 }
 
 .slide {
