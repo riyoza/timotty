@@ -4,15 +4,21 @@ html {
 
 body {
   background-color: rgb(32, 32, 32);
+  overflow: hidden;
+}
+
+.bungkusgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* navbar */
-#nav {
+.navbar {
   /* width: 100%; */
   position: fixed;
   top: 50%;
-  left: 0%;
-  transform: translate(0, -50%);
+  left: 100%;
+  transform: translate(-100%, -50%);
   /* justify-content: space-between;
   align-items: center;
   align-content: center;
@@ -115,7 +121,7 @@ img {
 }
 
 .dropdown:hover .drop-content {
-  display: inline-flex;
+  display: inline-flexbox;
   border-radius: 0 0 1em 1em;
 }
 
