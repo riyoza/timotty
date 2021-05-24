@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: rgb(32, 32, 32);
-  overflow: hidden;
+  overflow: auto;
 }
 
 .bungkusgrid {
@@ -144,4 +144,24 @@ img {
   .wadahslide {
     padding-top: 8vh;
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(48, 48, 48);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(59, 59, 59);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
