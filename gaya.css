@@ -14,7 +14,7 @@ body {
 
 /* navbar */
 .navbar {
-  /* width: 100%; */
+  width: auto;
   position: fixed;
   top: 50%;
   left: 100%;
@@ -96,6 +96,7 @@ img {
 .wadahslide {
   width: 100%;
   grid-column: 1 / 4;
+  padding-top: auto;
 }
 
 .slide {
@@ -131,3 +132,16 @@ img {
 }
 
 /*dropbuton*/
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+  }
+
+  .wadahslide {
+    padding-top: 8vh;
+  }
+}
