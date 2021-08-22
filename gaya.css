@@ -24,20 +24,26 @@ body {
   align-items: center;
   align-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin: auto;
-  margin-top: 1em; */
+  flex-wrap: wrap; */
+  /* margin: auto; */
+  /* margin-top: 1em; */
 }
 
 #title {
+  /* display: flex; */
   background-color: rgb(48, 48, 48);
   padding: 1em;
   /* border-radius: 0 2vh 2vh 0; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* margin: 0 0.6em; */
+  /* margin: 0 auto; */
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -156,9 +162,9 @@ img {
     transform: translate(0%, 0%);
   }
 
-  .wadahslide {
+  /* .wadahslide {
     padding-top: 8vh;
-  }
+  } */
 
   .textcat {
     font-size: 2rem;
