@@ -16,9 +16,10 @@ body {
 .navbar {
   width: auto;
   position: fixed;
-  top: 50%;
+  bottom: 50%;
   left: 100%;
-  transform: translate(-100%, -50%);
+  transform: translate(-100%, 50%);
+  z-index: 1;
   /* justify-content: space-between;
   align-items: center;
   align-content: center;
@@ -150,7 +151,7 @@ img {
 @media only screen and (max-width: 600px) {
   .navbar {
     width: 100%;
-    top: 0%;
+    bottom: 0%;
     left: 0%;
     transform: translate(0%, 0%);
   }
