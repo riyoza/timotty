@@ -158,6 +158,10 @@ img {
   .wadahslide {
     padding-top: 8vh;
   }
+
+  .textcat {
+    font-size: 2rem;
+  }
 }
 
 /* width */
