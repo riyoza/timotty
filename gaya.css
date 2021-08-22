@@ -162,9 +162,9 @@ img {
     transform: translate(0%, 0%);
   }
 
-  /* .wadahslide {
-    padding-top: 8vh;
-  } */
+  .wadahslide {
+    padding-bottom: 8vh;
+  }
 
   .textcat {
     font-size: 2rem;
