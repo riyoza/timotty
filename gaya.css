@@ -100,6 +100,7 @@ img {
 }
 
 .slide {
+  position: relative;
   background-color: rgb(48, 48, 48);
   padding: 1em;
   width: 78%;
@@ -110,6 +111,19 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 4vh auto;
+  text-align: center;
+}
+
+.textcat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 5em;
+  color: azure;
+  
 }
 /* ................................... */
 
