@@ -3,8 +3,12 @@ html {
 }
 
 body {
-  background-color: rgb(32, 32, 32);
-  overflow: none;
+  height: 150vh;
+  background-image:url("maintenis.png");
+  background-color: rgb(48, 48, 48);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bungkusgrid {
@@ -229,20 +233,18 @@ background: #272727;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(48, 48, 48);
+  background-color: rgba(48, 48, 48, 0.85);
   position: relative;
   border-radius: 4vh;
   width: 64vh;
   padding: 3vh;
   text-align: center;
   margin-top: 18%;
-  
 }
 
 .kotakb {
   display: flex;
   position: relative;
-  background-color: rgb(48, 48, 48);
   border-radius: 3vh;
   align-items: center;
   align-content: center;
@@ -258,6 +260,9 @@ background: #272727;
 }
 
 @media only screen and (max-width: 660px) {
+  body {
+    background-image: url(maintenis1.png);
+  }
   .navbar {
     width: 100%;
     bottom: 0%;
@@ -275,6 +280,7 @@ background: #272727;
 
   .kotakb {
     flex-direction: column;
+    padding: 8vh 0 8vh;
   }
 
   .kotakb div{
@@ -282,41 +288,57 @@ background: #272727;
   }
 
   .kotak1 {
-    margin-top: 8%;
+    margin-top: 15%;
+    background-color: whitesmoke;
+    border-radius: 0%;
   }
 
   #in {
     background-color: rgb(10, 102, 194);
     padding: 0 24vh;
     border-radius: 16px;
+    box-shadow: 0 4px 4px #aaaaaa;
   }
 
   #be {
     background-color: rgb(0, 62, 203);
     padding: 0 24vh;
     border-radius: 16px;
+    box-shadow: 0 4px 8px #aaaaaa;
   }
 
   #db {
     background-color: rgb(243, 243, 243);
     padding: 0 24vh;
     border-radius: 16px;
+    box-shadow: 0 4px 8px #aaaaaa;
   }
 
   #ig {
     background-color: rgb(255, 255, 255);
     padding: 0 24vh;
     border-radius: 16px;
+    box-shadow: 0 4px 8px #aaaaaa;
   }
 
   #me {
     background-color: rgb(15, 15, 15);
     padding: 0 24vh;
     border-radius: 16px;
+    box-shadow: 0 4px 8px #aaaaaa;
   }
 
   .kotakb img {
     width: 10vh;
     margin: .3vh
+  }
+
+  #title {
+    background-color: whitesmoke;
+  }
+
+  .title {
+    color: rgb(48, 48, 48);
+    font-size: 10vh;
   }
 }
