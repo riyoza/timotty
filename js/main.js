@@ -1,5 +1,5 @@
 // Set the Access Token
-var accessToken = "ec320d26700dc7631ee7e757a28ae367d15ca2d11601646a9d2c1874bc683f59"
+const accessToken = "ec320d26700dc7631ee7e757a28ae367d15ca2d11601646a9d2c1874bc683f59"
 
 // Call Dribble v2 API
 $.ajax({
