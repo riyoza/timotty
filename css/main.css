@@ -87,9 +87,30 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* Dribble shots on website */
+header {
+  position: fixed;
+  padding: 1em;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+}
 
-#dribbbleShots {
+.contents-title {
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 800;
+  font-size: 60pt;
+  padding: .2em 0 0;
+}
+
+.dribbble-contents {
+  width: 50%;
+  margin: 0 auto;
+}
+
+   /* Dribble shots on website */
+
+ #dribbbleShots {
   box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,8 +124,6 @@ textarea {
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -.5rem;
-  margin-left: -.5rem;
 }
 
 #dribbbleShots li {
@@ -124,9 +143,10 @@ textarea {
   height: 300px;
   width: 400px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-right: 20px;
   transition: all cubic-bezier(0.31, 0.48, 0.53, 0.83) 0.3s;
   overflow: hidden;
+  border-radius: .7em;
 }
 
 #dribbbleShots li:before {
@@ -134,7 +154,7 @@ textarea {
   content: "";
   width: 1000px;
   height: 1000px;
-  background: rgba(33, 43, 185, 0.93);
+  background: rgba(22, 22, 22, 0.452);
   top: 0;
   left: 0;
   transition: all cubic-bezier(0.31, 0.48, 0.53, 0.83) 0.5s;
@@ -155,9 +175,9 @@ textarea {
   position: absolute;
   bottom: 25px;
   left: 30px;
-  font-size: 25px;
-  font-family: 'Montserrat';
-  font-weight: 700;
+  font-size: 2em;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 500;
   color: #fff;
   transition: all cubic-bezier(0.31, 0.48, 0.53, 0.83) 0.3s;
   transform: translateY(30px);
